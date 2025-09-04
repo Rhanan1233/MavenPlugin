@@ -1,20 +1,24 @@
 package org.plugin.entity;
 
+import java.util.List;
+
 public class Developer {
 
     private String name;
     private String id;
     private String email;
     private String organization;
+    private List<Role> roles;
 
     public Developer() {
 
     }
-     public Developer(String name, String id, String email, String organization) {
+     public Developer(String name, String id, String email, String organization, List<Role> roles) {
         this.name = name;
         this.id = id;
         this.email = email;
         this.organization = organization;
+        this.roles = roles;
      }
 
     public String getName() {
@@ -33,6 +37,10 @@ public class Developer {
         return organization;
     }
 
+    public List<Role> getRoles() {
+        return roles;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -48,4 +56,9 @@ public class Developer {
     public void setOrganization(String organization) {
         this.organization = organization;
     }
+
+    public void setRoles(List<Role> roles) {
+        this.roles = roles;
+    }
+
 }

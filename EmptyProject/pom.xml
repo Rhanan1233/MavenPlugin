@@ -35,6 +35,10 @@
                             <id>1</id>
                             <email>ivan@example.ru</email>
                             <organization>Google</organization>
+                            <roles>
+                                <role>Developer</role>
+                                <role>Manager</role>
+                            </roles>
                         </developer>
 
                         <developer>
@@ -42,6 +46,12 @@
                             <id>2</id>
                             <email>petr@example.ru</email>
                             <organization>Uber</organization>
+                            <roles>Courier,Seller,Consultant</roles>
+                            <roles>
+                                <role>Courier</role>
+                                <role>Seller</role>
+                                <role>Consultant</role>
+                            </roles>
                         </developer>
 
                         <developer>
@@ -49,6 +59,12 @@
                             <id>3</id>
                             <email>alexey@example.ru</email>
                             <organization>Netflix</organization>
+                            <roles>Director,Actor,Stuntman</roles>
+                            <roles>
+                                <role>Director</role>
+                                <role>Actor</role>
+                                <role>Stuntman</role>
+                            </roles>
                         </developer>
 
                     </developers>

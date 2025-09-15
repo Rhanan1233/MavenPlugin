@@ -46,7 +46,6 @@
                             <id>2</id>
                             <email>petr@example.ru</email>
                             <organization>Uber</organization>
-                            <roles>Courier,Seller,Consultant</roles>
                             <roles>
                                 <role>Courier</role>
                                 <role>Seller</role>
@@ -59,7 +58,6 @@
                             <id>3</id>
                             <email>alexey@example.ru</email>
                             <organization>Netflix</organization>
-                            <roles>Director,Actor,Stuntman</roles>
                             <roles>
                                 <role>Director</role>
                                 <role>Actor</role>
